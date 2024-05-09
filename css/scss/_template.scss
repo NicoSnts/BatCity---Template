@@ -40,6 +40,10 @@ h2{
   color: $white !important;
 }
 
+.bg-secondary .card h3{
+  color: $white;
+}
+
 a.btn{
   padding: 0.775rem 1.25rem !important;
   border-radius: 0 !important;
@@ -64,6 +68,16 @@ a.btn{
 
 #content{
   padding-top: 0 !important;
+}
+
+.youtube-video{
+  width: 100%;
+  iframe{
+    width: 100%;
+    @include media-breakpoint-down(sm) {
+      height: 400px;
+    }
+  }
 }
 
 /*
