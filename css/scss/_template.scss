@@ -32,6 +32,10 @@ h2{
   color: $body-color !important;
 }
 
+.bg-secondary h2{
+  color: $white !important;
+}
+
 a.btn{
   padding: 0.775rem 1.25rem !important;
   border-radius: 0 !important;
@@ -52,6 +56,10 @@ a.btn{
 
 .main{
   padding: 0 !important;
+}
+
+#content{
+  padding-top: 0 !important;
 }
 
 /*
