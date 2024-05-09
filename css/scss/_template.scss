@@ -28,8 +28,22 @@ body{
   background-color: #F8F8F8 !important;
 }
 
+h2{
+  color: $body-color !important;
+}
+
 a.btn{
   padding: 0.775rem 1.25rem !important;
+  border-radius: 0 !important;
+  border-color: transparent !important;
+}
+
+.btn.btn-primary, .btn.btn-primary:link, .btn.btn-primary:visited, a.btn.btn-primary{
+  background-color: $primary !important;
+}
+
+.btn.btn-secondary, .btn.btn-secondary:link, .btn.btn-secondary:visited, a.btn.btn-secondary{
+  background-color: $secondary !important;
 }
 
 .mod{
