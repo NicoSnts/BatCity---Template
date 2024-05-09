@@ -8,6 +8,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/*
+// Button
+*/
+
+.btn{
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/*
+// Typography
+*/
+
 .pre-title{
     font-family: "Fira Sans Extra Condensed", sans-serif;
     font-weight: 500;
@@ -22,6 +36,14 @@
 .h2-max-width{
     max-width: 500px;
     text-align: center;
+}
+
+/*
+// Medias
+*/
+
+figure{
+  margin: 0 !important;
 }
 
 /*
