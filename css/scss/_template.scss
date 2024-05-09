@@ -225,6 +225,7 @@ figure {
     .accordion-button {
       font-size: 1.2rem;
       font-weight: $font-weight-medium;
+      word-wrap: break-word;
     }
   }
 }
@@ -237,6 +238,7 @@ figure {
   align-items: flex-end;
   background-position: center;
   background-size: cover;
+  background-image: url('https://svite-league-apps-content.s3.amazonaws.com/20137/41248/20f26b1b-a2d3-4a05-bfc9-f58d0bacc69f.png');
   h2 {
     font-size: 3rem;
     font-weight: 600;
