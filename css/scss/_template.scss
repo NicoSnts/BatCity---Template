@@ -226,6 +226,8 @@ figure {
       font-size: 1.2rem;
       font-weight: $font-weight-medium;
       word-wrap: break-word;
+      white-space: normal !important;
+      line-height: 1.6;
     }
   }
 }
