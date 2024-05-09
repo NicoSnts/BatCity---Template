@@ -19,7 +19,7 @@
   $disabled-color: color-contrast($disabled-background)
 ) {
   --#{$prefix}btn-color: #{$color};
-  --#{$prefix}btn-bg: #{$background};
+  --#{$prefix}btn-bg: #{$background} !important;
   --#{$prefix}btn-border-color: #{$border};
   --#{$prefix}btn-hover-color: #{$hover-color};
   --#{$prefix}btn-hover-bg: #{$hover-background};
