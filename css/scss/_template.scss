@@ -52,6 +52,9 @@ figure{
 
 // Carousel
 .carousel-item {
+  figure{
+    margin: 0!important;
+  }
   &:after {
     position: absolute;
     content: "";
