@@ -28,6 +28,10 @@ body{
   background-color: #F8F8F8 !important;
 }
 
+div[role="main"] > div.content > h2 {
+  display: none !important;
+}
+
 h2{
   color: $body-color !important;
 }
