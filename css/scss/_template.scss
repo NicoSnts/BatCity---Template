@@ -32,6 +32,13 @@ body{
   background-color: #F8F8F8 !important;
 }
 
+.main.la_content__page {
+  max-width: 100% !important;
+  .la_content__title{
+    display: none !important;
+  }
+}
+
 div[role="main"] > div.content > h2 {
   display: none !important;
 }
