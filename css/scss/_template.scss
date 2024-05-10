@@ -20,6 +20,10 @@
   }
 }
 
+img{
+  max-width: 100%;
+}
+
 /*
 // LeagueApp Fixes
 */
@@ -92,6 +96,11 @@ a.btn{
 /*
 // Typography
 */
+
+p a{
+  color: $primary !important;
+}
+
 
 .pre-title {
   font-family: "Fira Sans Extra Condensed", sans-serif !important;
@@ -245,6 +254,7 @@ figure {
     font-size: 3rem;
     font-weight: 600;
     font-style: italic;
+    color: $white !important;
   }
   &:after {
     content: "";
@@ -318,5 +328,89 @@ figure {
     .carousel-control-next-icon{
       filter: invert(1);
     }
+  }
+}
+
+
+/*
+// About Us
+*/
+
+// Header
+.page-header{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      217deg,
+      rgba(11, 11, 21, 0.29) 0%,
+      rgba(11, 11, 21, 0.2) 45%,
+      rgba(11, 11, 21, 0.89) 89%
+    );
+    z-index: 0;
+  }
+  .page-header-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 2;
+    h1, p{
+      color: $white;
+      z-index: 2;
+    }
+  }
+}
+
+// Introduction sections
+/*
+.field-background{
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 80%;
+  background-image: url("data:image/svg+xml,%3Csvg width='954' height='708' viewBox='0 0 954 708' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M-7.18977e-07 682.966C-3.21958e-07 692.048 7.36554 699.414 16.4483 699.414L937.552 699.414C946.635 699.414 954 692.048 954 682.966L954 25.0344C954 15.9517 946.635 8.5862 937.552 8.5862L16.4482 8.58624C7.36551 8.58624 -2.98751e-05 15.9517 -2.94781e-05 25.0345L-7.18977e-07 682.966ZM32.8966 666.517L32.8965 502.034L82.2414 502.034C91.3241 502.034 98.6897 494.669 98.6897 485.586L98.6896 222.414C98.6896 213.331 91.3241 205.966 82.2414 205.966L32.8965 205.966L32.8965 41.4828L460.43 41.4828L460.43 206.903C386.571 215.127 328.844 277.999 328.844 354C328.844 430.001 386.571 492.866 460.43 501.09L460.43 666.517L32.8966 666.517ZM32.8965 469.138L32.8965 238.862L65.7931 238.862L65.7931 469.138L32.8965 469.138ZM361.74 354C361.74 295.806 404.496 247.978 460.43 240.036L460.43 467.954C404.496 460.016 361.74 412.194 361.74 354ZM493.327 666.517L493.327 501.09C567.189 492.866 624.913 430.001 624.913 354C624.913 277.999 567.189 215.127 493.327 206.903L493.327 41.4828L921.103 41.4827L921.103 205.966L871.759 205.966C862.676 205.966 855.31 213.331 855.31 222.414L855.31 485.586C855.31 494.669 862.676 502.034 871.759 502.034L921.104 502.034L921.104 666.517L493.327 666.517ZM493.327 467.957L493.327 240.04C549.261 247.978 592.016 295.806 592.016 354.003C592.016 412.194 549.261 460.016 493.327 467.957ZM888.207 469.138L888.207 238.862L921.103 238.862L921.104 469.138L888.207 469.138Z' fill='url(%23paint0_linear_392_1310)' stroke='white' stroke-width='16' stroke-linejoin='round'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_392_1310' x1='477' y1='-187' x2='477' y2='550' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-opacity='0.1'/%3E%3Cstop offset='1' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+*/
+.introduction-text{
+  max-width: 700px;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+//Benefits
+.benefits-card{
+  display: flex;
+  flex-direction: column;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  .benefits-icon{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    svg{
+      width: 120px;
+      height: 120px;
+    }
+  }
+  .benefits-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Fira Sans Extra Condensed", sans-serif !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+  }
+  .benefits-content{
+    text-align: center;
   }
 }
