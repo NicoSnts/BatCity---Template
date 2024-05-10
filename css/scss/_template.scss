@@ -39,6 +39,10 @@ body{
   }
 }
 
+.la--container{
+  padding: 0 !important
+}
+
 div[role="main"] > div.content > h2 {
   display: none !important;
 }
