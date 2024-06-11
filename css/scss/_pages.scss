@@ -1,0 +1,158 @@
+:root {
+    --primary: #32A21D;
+    --primary-light: rgba(50,162,29,0.1);
+  }
+  
+  /* Filters */
+  
+  .reg-intro{
+    background: var(--primary-light) !important;
+    border: 1px solid var(--primary) !important;
+    border-radius: 0 !important;
+  }
+  
+  .reg-intro h2{
+    color: var(--primary) !important;
+  }
+  
+  .filter label{
+    margin-bottom: 0.2rem;
+  }
+  
+  .filter span, span.half{
+    margin-bottom: 0.75rem !important;
+  }
+  
+  .filter label{
+    font-weight: 400 !important;
+  }
+  
+  .filter input, .filter select{
+    padding: 0.5rem !important;
+    border-radius: 0px !important;
+  }
+  
+  .filter select{
+    padding-right: 1rem !important;
+  }
+  
+  .filter select, .field-group{
+    color: #000 !important;
+  }
+  
+  .field-group label{
+    margin-right: .5rem;
+  }
+  
+  .field-group label input{
+    margin-right: .5rem !important;
+  }
+  
+  input[type=submit]{
+    background: var(--primary) !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 1rem !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+  }
+  
+  .simple-tabs li{
+    margin-bottom: 0 !important;
+  }
+  
+  .simple-tabs li.current a{
+    border-color: var(--primary) !important;;
+  }
+  
+  .simple-tabs li a{
+    top: 0 !important;
+    font-size: 1rem !important;
+    border-bottom: 2px solid transparent !important;
+  }
+  
+  /* Cards */
+  .la-programs.league-reg {
+    background: transparent !important;
+  }
+  
+  .la-programs li{
+    border-radius: 1px !important;
+  }
+  
+  .la-programs li:hover{
+    border-color: var(--primary) !important;
+  }
+  
+  .base-meta h2{
+    margin-bottom: 1rem !important;
+  }
+  
+  .la-programs--grid .la-logo__program{
+    width: 70px !important;
+    height: 50px !important;
+    object-fit: contain;
+    object-position: left center;
+  }
+  
+  .base-meta h2 a{
+    color: #000 !important;
+  }
+  
+  .la-programs--grid.base-listing .base-actions .btn.large-btn{
+    background: var(--primary) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0 !important;
+    cursor: pointer !important;
+    outline: inherit !important;
+  }
+  
+  .la-programs--grid.base-listing .base-actions .btn.large-btn:hover{
+    opacity: 0.8 !important;
+  }
+  
+  .base-actions a{
+    font-size: .9rem !important;
+  }
+  
+  .la-programs--grid.base-listing ul{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  
+  .la-programs--grid.base-listing .base-actions{
+    margin-top: auto !important;
+  }
+  
+  .la-programs--grid li{
+    margin: 0 !important;
+  }
+  
+  .la-programs--grid.base-listing ul li{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+    min-width: 30% !important;
+    align-self: stretch;
+    min-height: 392px !important;
+  }
+  
+  @media(max-width: 830px){
+    .la-programs--grid.base-listing ul li{
+      min-width: 40% !important;
+      width: 40% !important;
+    }
+  }
+  
+  @media(max-width: 630px){
+    .la-programs--grid.base-listing ul li{
+      min-width: 100% !important;
+      width: 100% !important;
+      min-height: auto !important;;
+    }
+  }
+  
+  
