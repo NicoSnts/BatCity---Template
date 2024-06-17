@@ -103,6 +103,10 @@
     color: #000 !important;
     text-decoration: none !important;
   }
+
+  .la-programs--grid.base-listing ul{
+    padding-left: 0 !important;
+  }
   
   .la-programs--grid.base-listing .base-actions .btn.large-btn{
     background: var(--primary) !important;
