@@ -181,10 +181,16 @@
     padding-left: 0;
     h2{
       color: #000; 
+      a{
+        text-decoration: none;
+      }
     }
     .clr{
       display: flex;
       flex-direction: row-reverse;
       padding: 8px;
+      .location-view{
+        padding: 1rem;
+      }
     }
   }
