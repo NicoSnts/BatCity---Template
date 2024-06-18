@@ -178,10 +178,12 @@
   
   /* Location list Card */
   .location-list{
+    padding-left: 0;
     h2{
       color: #000; 
     }
     .clr{
       display: flex;
+      flex-direction: row-reverse;
     }
   }
