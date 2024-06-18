@@ -186,6 +186,8 @@
     }
     .clr{
       display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
       flex-direction: row-reverse;
       .location-view{
         padding: 1rem;
