@@ -190,13 +190,14 @@
       justify-content: flex-start;
       flex-direction: row;
       border-top: 0px;
+      border: 1px solid var(--bs-secondary);
+      box-sizing: content-box;
       .location-view{
         padding: 1rem;
         order: 1;
       }
       .location-details{
         background-color: var(--bs-secondary);
-        border: 1px solid var(--bs-secondary);
         color: #fff;
         order: 2;
         h4{
