@@ -217,6 +217,7 @@
     figure img, figure iframe{
       width: 100% !important;
       height: auto !important;
+      aspect-ratio: 16 / 9;
       margin-top: 1rem !important;
       margin-bottom: 1rem !important;
     }
