@@ -218,8 +218,8 @@
       width: 100% !important;
       height: auto !important;
       aspect-ratio: 16 / 9;
-      margin-top: 1rem !important;
-      margin-bottom: 1rem !important;
+      margin-top: 0rem !important;
+      margin-bottom: 0rem !important;
     }
     p{
 
@@ -232,4 +232,9 @@
       font-family: "Fira Sans", sans-serif !important;
       font-weight: 400;
     }
+  }
+
+
+  #page-title{
+    display: none !important;
   }
