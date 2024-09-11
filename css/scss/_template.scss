@@ -178,9 +178,9 @@ figure {
       rgba(11, 11, 21, 0.89) 89%
     );
   }
-  img {
-    height: 500px;
-    width: 100%;
+  img, figure img.carousel-item-img {
+    height: 500px !important;
+    width: 100% !important;
     object-fit: cover;
   }
 }
